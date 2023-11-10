@@ -1,0 +1,28 @@
+/* AttendanceList.css */
+/* Add your styles for the AttendanceList component here */
+
+/* Example Styles */
+.AttendanceListContainer {
+    margin-top: 20px;
+}
+
+/* Style the student lists */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style the student list items */
+ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Differentiate present and absent students */
+.PresentStudents {
+    color: #28a745;
+}
+
+.AbsentStudents {
+    color: #dc3545;
+}

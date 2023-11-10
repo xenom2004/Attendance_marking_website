@@ -1,0 +1,53 @@
+/* PhotoUploader.css */
+
+/* Container styling */
+.photo-uploader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+/* File input styling */
+.file-input {
+    margin-bottom: 20px;
+}
+
+/* Selected files container */
+.selected-files {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+/* Individual file item styling */
+.file-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* File name styling */
+.file-name {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+/* Remove button styling */
+.remove-button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.remove-button:hover {
+    background-color: #ff5750;
+}

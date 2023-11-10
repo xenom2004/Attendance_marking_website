@@ -1,0 +1,7 @@
+/* App.css */
+/* Add your styles for the App component here */
+
+/* Example Styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

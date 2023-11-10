@@ -1,0 +1,43 @@
+/* DateSelector.css */
+/* Add your styles for the DateSelector component here */
+
+/* Example Styles */
+.DatePickerContainer {
+    margin-bottom: 20px;
+}
+
+/* Customize the date picker input field */
+.DatePicker {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Style the date picker calendar */
+.react-datepicker-popper {
+    z-index: 1;
+}
+
+/* Customize the date picker calendar styles */
+.react-datepicker {
+    font-size: 14px;
+}
+
+/* Customize the date picker header */
+.react-datepicker__header {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Customize the date picker day styles */
+.react-datepicker__day {
+    color: #333;
+}
+
+/* Highlight the selected date */
+.react-datepicker__day--selected {
+    background-color: #007bff;
+    color: white;
+}
